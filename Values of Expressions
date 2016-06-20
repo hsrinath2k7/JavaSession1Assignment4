@@ -1,0 +1,38 @@
+// Integer Variables  type of expressions
+public class OperatorTypeExpressions {
+
+	public static void main(String[] args) {
+		
+		// Variable declaration and initialization		
+        int x=5, y=10;
+        
+        // Variable declarations for expressions assigning        
+        int exp1, exp2, exp3, exp4;
+        
+        //Expressions defined
+		
+        exp1 = x + y * 2;
+        
+        exp2 = x - y + 2;
+        
+        exp3 = (x + y) * 2;
+        
+        exp4 = y % x;
+		
+        // Resultant values
+        System.out.println("Expression 1: " + exp1);
+        System.out.println("Expression 2: " + exp2);
+        System.out.println("Expression 3: " + exp3);
+        System.out.println("Expression 4: " + exp4);
+        
+	}
+
+}
+
+//Output
+/*
+Expression 1: 25
+Expression 2: -3
+Expression 3: 30
+Expression 4: 0
+*/
